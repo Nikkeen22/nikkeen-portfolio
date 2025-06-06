@@ -1,5 +1,4 @@
-// src/components/Resume.jsx
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { FaFileDownload } from 'react-icons/fa';
 
@@ -26,7 +25,7 @@ const Resume = () => {
         </motion.p>
 
         <motion.a
-          href="/resume.pdf" // поклади резюме сюди
+          href="/Резюме.docx"
           download
           className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white py-3 px-6 rounded font-semibold transition"
           initial={{ opacity: 0 }}

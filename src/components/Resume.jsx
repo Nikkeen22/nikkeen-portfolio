@@ -25,7 +25,7 @@ const Resume = () => {
         </motion.p>
 
         <motion.a
-          href="/Резюме.docx"
+          href="/resume.docx"
           download
           className="inline-flex items-center gap-2 bg-teal-500 hover:bg-teal-600 text-white py-3 px-6 rounded font-semibold transition"
           initial={{ opacity: 0 }}
